@@ -1,0 +1,15 @@
+---
+settings:
+  name: About docs.netapp.com
+  internal:
+    pdf_enabled: false
+  prod:
+    pdf_enabled: false
+    harmony_enabled: false
+  langs: de-de,us-en,ja-jp,ko-kr,zh-cn,zh-tw,es-es,fr-fr,it-it
+sidebar:
+  entries:
+  - title: Informationen zu den Websites
+    url: "/docs-netapp-com.html"
+  - title: Rechtliche Hinweise
+    url: "/legal-notices.html"
