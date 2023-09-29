@@ -23,21 +23,21 @@ video::77a636ba-4202-45bb-9e47-b08a01138502[panopto]
 .Transkript
 [%collapsible]
 ====
-&#91;0:01&#93;:: Hallo. Das ist Ben aus dem docs.netapp.com Team. In diesem Video sehen wir uns die Funktionen und Features von docs.netapp.com an, mit denen Sie Ihre Inhalte optimal nutzen können.
-&#91;0:12&#93;:: Beginnen wir damit, den gesuchten Inhalt zu finden. Sobald Sie eine Dokumentseite eingegeben haben, können Sie die Navigation auf der linken Seite der Website verwenden.
-&#91;0:20&#93;:: Wenn mehrere Versionen der Dokumentation verfügbar sind, können Sie die Dokumente für die Version des Produkts auswählen, die Sie verwenden.
-&#91;0:28&#93;:: Verwenden Sie das Suchfeld, um nach Inhalten innerhalb einer Dokumentwebsite zu suchen. Zum Beispiel möchte ich lernen, wie die Volume-Verschlüsselung funktioniert.
-&#91;0:36&#93;:: Wenn Sie lieber in den Dokumenten surfen, können Sie das Inhaltsverzeichnis verwenden, das in logische Gruppierungen wie erste Schritte und Verwendung des Produkts organisiert ist.
-&#91;0:45&#93;:: Wenn Sie zu einer anderen Dokumentwebsite wechseln möchten, können Sie die Semmelbrösel verwenden, um etwa docs.netapp.com zu navigieren.
-&#91;0:50&#93;:: Sobald Sie den gesuchten Inhalt gefunden haben, stehen Ihnen einige wichtige Funktionen zur Verfügung, mit denen Sie mit dem Inhalt interagieren können.
-&#91;0:58&#93;:: Die meisten Dokumentseiten sind in verschiedenen Sprachen verfügbar, sodass Sie die Dokumente in Ihrer bevorzugten Sprache lesen können.
-&#91;1:05&#93;:: Wenn eine Seite mehrere Abschnitte enthält, können Sie die Links „auf dieser Seite“ verwenden, um direkt zu dem gewünschten Inhalt zu gelangen. Die Links geben auch an, wo Sie sich auf der Seite befinden, was Ihnen beim Blättern helfen kann.
-&#91;1:20&#93;:: Um sich nur auf den Inhalt selbst zu konzentrieren, können Sie die linke und rechte Seitenleiste reduzieren. Wenn Sie fertig sind, erweitern Sie sie, um die Navigationssteuerungen erneut anzuzeigen.
-&#91;1:33&#93;:: Wenn Sie die Dokumente offline lesen müssen, können Sie eine PDF-Datei der gesamten Dokumentseite oder einzelner Abschnitte innerhalb der Website herunterladen.
-&#91;1:41&#93;:: Die NetApp-Dokumentation ist Open-Source-Software und soll Community-Beiträge über ein GitHub Konto ermöglichen. Reichen Sie Ihr Feedback ein, um eine Aktualisierung der Dokumentation anzufordern oder den Inhalt direkt selbst zu bearbeiten, der vor dem Zusammenführen an einen NetApp Content Lead übermittelt wird.
-&#91;1:59&#93;:: Auf den Dokumentseiten für einige unserer Cloud-Services sehen Sie möglicherweise eine Cloud-Provider-Option, mit der Sie die Dokumente nach einem bestimmten Cloud-Provider filtern können. Wenn Sie beispielsweise Microsoft Azure auswählen, wird nur der für Azure zutreffende Inhalt angezeigt. Inhalte für andere Cloud-Anbieter werden nicht angezeigt.
-&#91;2:18&#93;:: Da Sie über ein Tablet, ein mobiles Gerät oder einen Desktop auf unsere Inhalte zugreifen können, verwenden wir ein responsives Layout, um sicherzustellen, dass unsere Dokumente auf jedem Gerät gut aussehen.
-&#91;2:28&#93;:: Das wäre alles. Wir hoffen, dass Sie diese Funktionen gerne nutzen und danken Ihnen, dass Sie Teil unserer Content-Community sind.
+0:01:: Hallo. Das ist Ben aus dem docs.netapp.com Team. In diesem Video sehen wir uns die Funktionen und Features von docs.netapp.com an, mit denen Sie Ihre Inhalte optimal nutzen können.
+0:12:: Beginnen wir damit, den gesuchten Inhalt zu finden. Sobald Sie eine Dokumentseite eingegeben haben, können Sie die Navigation auf der linken Seite der Website verwenden.
+0:20:: Wenn mehrere Versionen der Dokumentation verfügbar sind, können Sie die Dokumente für die Version des Produkts auswählen, die Sie verwenden.
+0:28:: Verwenden Sie das Suchfeld, um nach Inhalten innerhalb einer Dokumentwebsite zu suchen. Zum Beispiel möchte ich lernen, wie die Volume-Verschlüsselung funktioniert.
+0:36:: Wenn Sie lieber in den Dokumenten surfen, können Sie das Inhaltsverzeichnis verwenden, das in logische Gruppierungen wie erste Schritte und Verwendung des Produkts organisiert ist.
+0:45:: Wenn Sie zu einer anderen Dokumentwebsite wechseln möchten, können Sie die Semmelbrösel verwenden, um etwa docs.netapp.com zu navigieren.
+0:50:: Sobald Sie den gesuchten Inhalt gefunden haben, stehen Ihnen einige wichtige Funktionen zur Verfügung, mit denen Sie mit dem Inhalt interagieren können.
+0:58:: Die meisten Dokumentseiten sind in verschiedenen Sprachen verfügbar, sodass Sie die Dokumente in Ihrer bevorzugten Sprache lesen können.
+1:05:: Wenn eine Seite mehrere Abschnitte enthält, können Sie die Links „auf dieser Seite“ verwenden, um direkt zu dem gewünschten Inhalt zu gelangen. Die Links geben auch an, wo Sie sich auf der Seite befinden, was Ihnen beim Blättern helfen kann.
+1:20:: Um sich nur auf den Inhalt selbst zu konzentrieren, können Sie die linke und rechte Seitenleiste reduzieren. Wenn Sie fertig sind, erweitern Sie sie, um die Navigationssteuerungen erneut anzuzeigen.
+1:33:: Wenn Sie die Dokumente offline lesen müssen, können Sie eine PDF-Datei der gesamten Dokumentseite oder einzelner Abschnitte innerhalb der Website herunterladen.
+1:41:: Die NetApp-Dokumentation ist Open-Source-Software und soll Community-Beiträge über ein GitHub Konto ermöglichen. Reichen Sie Ihr Feedback ein, um eine Aktualisierung der Dokumentation anzufordern oder den Inhalt direkt selbst zu bearbeiten, der vor dem Zusammenführen an einen NetApp Content Lead übermittelt wird.
+1:59:: Auf den Dokumentseiten für einige unserer Cloud-Services sehen Sie möglicherweise eine Cloud-Provider-Option, mit der Sie die Dokumente nach einem bestimmten Cloud-Provider filtern können. Wenn Sie beispielsweise Microsoft Azure auswählen, wird nur der für Azure zutreffende Inhalt angezeigt. Inhalte für andere Cloud-Anbieter werden nicht angezeigt.
+2:18:: Da Sie über ein Tablet, ein mobiles Gerät oder einen Desktop auf unsere Inhalte zugreifen können, verwenden wir ein responsives Layout, um sicherzustellen, dass unsere Dokumente auf jedem Gerät gut aussehen.
+2:28:: Das wäre alles. Wir hoffen, dass Sie diese Funktionen gerne nutzen und danken Ihnen, dass Sie Teil unserer Content-Community sind.
 
 
 ====
