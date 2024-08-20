@@ -11,5 +11,7 @@ sidebar:
   entries:
   - title: Informationen zu den Websites
     url: "/docs-netapp-com.html"
+  - title: Über Doc (KI-gestützter Assistent)
+    url: "/doc-gen-ai-assistant.html"
   - title: Rechtliche Hinweise
     url: "/legal-notices.html"

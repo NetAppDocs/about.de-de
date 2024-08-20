@@ -1,0 +1,97 @@
+---
+sidebar: sidebar 
+permalink: doc-gen-ai-assistant.html 
+keywords:  
+summary: DOC ist unser generativer KI-gestützter Assistent auf docs.netapp.com. DOC wurde entwickelt, um Fragen zu NetApp Produkten zu beantworten. Beispielsweise beantwortet Doc Fragen zu NetApp Storage-Effizienzfunktionen oder Best Practices für Backup und Recovery in Multi-Cloud-Umgebungen. 
+---
+= Nutzungsbedingungen für den generativen KI-Assistenten von NetApp
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+DOC ist unser generativer KI-gestützter Assistent auf docs.netapp.com. DOC wurde entwickelt, um Fragen zu NetApp Produkten zu beantworten. Beispielsweise beantwortet Doc Fragen zu NetApp Storage-Effizienzfunktionen oder Best Practices für Backup und Recovery in Multi-Cloud-Umgebungen.
+
+Diese Beta-Version von Doc erstellt algorithmisch generierte Inhalte, die Fehler oder Ungenauigkeiten enthalten können. Alle generierten Inhalte sollten nur als Ausgangspunkt verwendet werden. Sie sollten die Antworten von Doc immer in der offiziellen Produktdokumentation von NetApp überprüfen. Jede Abhängigkeit von den generierten Antworten von Doc erfolgt auf eigenes Risiko, und NetApp ist nicht verantwortlich für Probleme oder Schwierigkeiten, die ausschließlich durch die Verwendung der generierten Antworten von Doc auftreten können.
+
+
+
+== Bestimmten Bedingungen
+
+Durch die Verwendung von Doc erklären Sie sich damit einverstanden, bei der Erstellung von Inhalten und Antworten die folgenden Regeln und Bestimmungen einzuhalten. Die Nichtbeachtung dieser Bedingungen kann dazu führen, dass die Verwendung von Doc blockiert wird.
+
+* Versuchen Sie nicht, Doc zu verwenden, um Inhalte zu produzieren, die Schaden, Missbrauch, Gewalt oder Täuschung verursachen könnten.
+* Versuchen Sie nicht, den Doc in Gesprächen einzubinden, die außerhalb des vorgesehenen Zweckes liegen, oder Antworten auf Fragen zu erhalten, die nicht über NetApp Produkte sprechen.
+
+
+
+
+== Sorgen
+
+* DOC ist kein Elefant, hat aber eine ganze Erinnerung.
++
+Die meiste Zeit erinnert sich Doc und achtet darauf, was Sie diskutieren. Wenn Doc die Spur einer Konversation verliert, können Sie in derselben Chat-Sitzung eine neue beginnen.
+
+* DOC ist ein begeisterter Leser.
++
+Immer wenn unsere Dokumente auf docs.netapp.com veröffentlicht werden (und das passiert viel), liest Doc und kann sie referenzieren, um ihre Antworten zu generieren. Es ist erstaunlich, wie schnell Doc lernt.
+
+* DOC ist beratend.
++
+DOC bietet Vorschläge für Fragen, die Sie zusätzlich zu den von Ihnen gestellten Fragen stellen möchten.
+
+* DOC ist kommunikativ.
++
+DOC gibt Einblicke in die Art und Weise, wie es seine Antworten generiert, und gibt Ihnen die Möglichkeit, Ihre Fragen neu zu formulieren.
+
+
+
+
+
+== Einschränkungen
+
+* Wenn ein NetApp-Produkt über mehrere Versionen der Dokumentation verfügt, bezieht sich Doc nur auf die neueste Version, um Antworten zu generieren.
+* Während der Beta-Phase bezieht sich Doc nicht auf die gesamte Dokumentation aller NetApp-Produkte. DOC bezieht sich nur auf eine Teilmenge der Dokumentation, einschließlich, aber nicht beschränkt auf die ONTAP- und BlueXP -Dokumente zur Erstellung von Antworten.
+* Obwohl Doc Antworten in anderen Sprachen liefern kann, hat Doc die nicht-englischen Versionen der NetApp-Produktdokumentation nicht gelesen. Um sicherzustellen, dass Sie über möglichst genaue Informationen verfügen, sollten Sie die Antworten von Doc immer auf Englisch prüfen.
+
+
+
+
+== Tipps
+
+* DOC liebt bestimmte Fragen.
++
+DOC bietet bessere Antworten, wenn Sie explizit einen Produktnamen, eine Schnittstelle (z. B. GUI oder API) und eine Version angeben. Zum Beispiel: _Welche Schritte sollte ich im System Manager befolgen um von ONTAP 9.8 auf ONTAP 9.12.1 zu aktualisieren?_
+
+* Müssen Sie lernen, wie man etwas tut?
++
+Bitten Sie Doc, die Schritte mit aufzunehmen. Anstatt Doc zu fragen _wie installiere ich den BlueXP -Connector ohne Internet?_ Frage _welche Schritte sollte ich befolgen, um den BlueXP -Connector ohne Internet zu installieren?_
+
+* Stellen Sie einfache Fragen.
++
+Wenn Sie eine komplexe Frage stellen müssen, teilen Sie sie in kleinere Fragen auf (dies wird manchmal als Verkettung von Fragen bezeichnet). Während einer Chat-Sitzung achtet Doc darauf und merkt sich die Fragen, die Sie stellen.
+
++
+Anstatt Doc zu fragen _wie konfiguriere ich Ransomware-Schutz und Backup-Zeitpläne in BlueXP ?_ try _wie konfiguriere ich Ransomware-Schutz in BlueXP ?_ und _welche Schritte sind notwendig, um Backup-Zeitpläne in BlueXP  zu konfigurieren?_
+
+* Verwenden Sie Anführungszeichen, um zu klären, wann Doc auf mehrere Wörter achten soll, die Doc falsch interpretieren könnte.
++
+Wenn Sie beispielsweise Doc fragen: „Wie wird die Storage-Effizienz in ONTAP berechnet?“ – „Doc könnte meinen, Sie hätten Fragen zu Storage und Effizienz als zwei Wörter, die nicht in Verbindung stehen.“ Um sicherzustellen, dass Doc versteht, dass Sie nach (dem Konzept der sogenannten) Storage-Effizienz fragen, wickeln Sie diesen Begriff in Zitate wie so: _Wie wird die Berechnung der „Storage-Effizienz“ in ONTAP berechnet?_
+
++
+Wenn Sie ein Gespräch mit einem Menschen hatten, würden Sie wahrscheinlich die Phrase betonen, möglicherweise Luftzitate verwenden, oder Geste in einer Weise, die die Unterscheidung offensichtlich macht. Stellen Sie sich die doppelten Anführungszeichen als Geste vor, die Doc dabei unterstützt, zu verstehen, wovon Sie sprechen.
+
+* Nach der Antwort gibt Doc Einblicke in die Art und Weise, wie es seine Antwort generiert hat. Werde gespannt.
++
+Versuchen Sie verschiedene Muster und Ansätze, um Fragen zu stellen. Wenn Sie nicht das gewünschte Ergebnis erzielen, versuchen Sie, Ihre Frage umzuformulieren.
+
+
+
+
+
+== Feedback
+
+Wir arbeiten daran, die Dok. Bitte senden Sie uns Feedback im Chat-Fenster von Doc. Lassen Sie uns wissen, ob die Antworten von Doc korrekt und hilfreich sind oder ob sie unvollständig oder in irgendeiner Weise unzureichend sind. Sie können auch mailto:ng-doccoments@netapp.com[contact US] senden, wenn Sie Fragen oder Bedenken bezüglich der Fähigkeiten oder Antworten von Doc haben.
