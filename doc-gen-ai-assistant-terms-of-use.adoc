@@ -1,0 +1,34 @@
+---
+sidebar: sidebar 
+permalink: doc-gen-ai-assistant-terms-of-use.html 
+keywords:  
+summary: DOC ist unser generativer KI-gestützter Assistent auf docs.netapp.com. DOC wurde entwickelt, um auf Fragen zu NetApp-Produkten zu antworten, und verwendet dabei Inhalte, die auf docs.NetApp.com veröffentlicht wurden. Beispielsweise beantwortet Doc Fragen zu NetApp Storage-Effizienzfunktionen oder Best Practices für Backup und Recovery in Multi-Cloud-Umgebungen. 
+---
+= Nutzungsbedingungen des generativen KI-gestützten Assistenten von NetApp
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+DOC ist unser generativer KI-gestützter Assistent auf docs.netapp.com. DOC wurde entwickelt, um auf Fragen zu NetApp-Produkten zu antworten, und verwendet dabei Inhalte, die auf docs.NetApp.com veröffentlicht wurden. Beispielsweise beantwortet Doc Fragen zu NetApp Storage-Effizienzfunktionen oder Best Practices für Backup und Recovery in Multi-Cloud-Umgebungen.
+
+Diese Beta-Version von Doc erstellt algorithmisch generierte Inhalte, die Fehler oder Ungenauigkeiten enthalten können. Alle generierten Inhalte sollten nur als Ausgangspunkt verwendet werden. Sie sollten die Antworten von Doc immer in der offiziellen Produktdokumentation von NetApp überprüfen. Jede Abhängigkeit von den generierten Antworten von Doc erfolgt auf eigenes Risiko, und NetApp ist nicht verantwortlich für Probleme oder Schwierigkeiten, die ausschließlich durch die Verwendung der generierten Antworten von Doc auftreten können.
+
+
+
+== Bestimmten Bedingungen
+
+Durch die Verwendung von Doc erklären Sie sich damit einverstanden, bei der Erstellung von Inhalten und Antworten die folgenden Regeln und Bestimmungen einzuhalten. Die Nichtbeachtung dieser Bedingungen kann dazu führen, dass die Verwendung von Doc blockiert wird.
+
+* Versuchen Sie nicht, Doc zu verwenden, um Inhalte zu produzieren, die Schaden, Missbrauch, Gewalt oder Täuschung verursachen könnten.
+* Versuchen Sie nicht, den Doc in Gesprächen einzubinden, die außerhalb des vorgesehenen Zweckes liegen, oder Antworten auf Fragen zu erhalten, die nicht über NetApp Produkte sprechen.
+
+
+
+
+== Feedback
+
+Wir arbeiten daran, die Dok. Bitte senden Sie uns Feedback im Chat-Fenster von Doc. Lassen Sie uns wissen, ob die Antworten von Doc korrekt und hilfreich sind oder ob sie unvollständig oder in irgendeiner Weise unzureichend sind. Sie können auch mailto:ng-doccoments@netapp.com[contact US] senden, wenn Sie Fragen oder Bedenken bezüglich der Fähigkeiten oder Antworten von Doc haben.

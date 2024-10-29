@@ -6,12 +6,16 @@ settings:
   prod:
     pdf_enabled: false
     harmony_enabled: false
-  langs: de-de,us-en,es-es,fr-fr,it-it,pt-br,ja-jp,ko-kr,zh-cn,zh-tw
+  langs: de-de,us-en,ja-jp,ko-kr,zh-cn,zh-tw,es-es,fr-fr,it-it
 sidebar:
   entries:
   - title: Informationen zu den Websites
     url: "/docs-netapp-com.html"
   - title: Über Doc (KI-gestützter Assistent)
-    url: "/doc-gen-ai-assistant.html"
+    entries:
+    - title: Funktionen und Einschränkungen
+      url: "/doc-gen-ai-assistant.html"
+    - title: Nutzungsbedingungen
+      url: "/doc-gen-ai-assistant-terms-of-use.html"
   - title: Rechtliche Hinweise
     url: "/legal-notices.html"

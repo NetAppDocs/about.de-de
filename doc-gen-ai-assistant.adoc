@@ -1,10 +1,10 @@
 ---
 sidebar: sidebar 
 permalink: doc-gen-ai-assistant.html 
-keywords:  
-summary: DOC ist unser generativer KI-gestützter Assistent auf docs.netapp.com. DOC wurde entwickelt, um Fragen zu NetApp Produkten zu beantworten. Beispielsweise beantwortet Doc Fragen zu NetApp Storage-Effizienzfunktionen oder Best Practices für Backup und Recovery in Multi-Cloud-Umgebungen. 
+keywords: netapp, generative ai, doc 
+summary: Der generative KI-gestützte Assistent NetApp ist auf docs.NetApp.com verfügbar. DOC beantwortet Fragen zu NetApp Produkten, wobei nur die auf dieser Website veröffentlichten Inhalte verwendet werden. DOC verwendet keine Inhalte von anderen NetApp-Seiten oder dem öffentlichen Internet, um Fragen zu beantworten. 
 ---
-= Nutzungsbedingungen für den generativen KI-Assistenten von NetApp
+= Übersicht über den generativen KI-gestützten Assistenten von NetApp
 :hardbreaks:
 :allow-uri-read: 
 :icons: font
@@ -13,19 +13,7 @@ summary: DOC ist unser generativer KI-gestützter Assistent auf docs.netapp.com.
 
 
 [role="lead"]
-DOC ist unser generativer KI-gestützter Assistent auf docs.netapp.com. DOC wurde entwickelt, um Fragen zu NetApp Produkten zu beantworten. Beispielsweise beantwortet Doc Fragen zu NetApp Storage-Effizienzfunktionen oder Best Practices für Backup und Recovery in Multi-Cloud-Umgebungen.
-
-Diese Beta-Version von Doc erstellt algorithmisch generierte Inhalte, die Fehler oder Ungenauigkeiten enthalten können. Alle generierten Inhalte sollten nur als Ausgangspunkt verwendet werden. Sie sollten die Antworten von Doc immer in der offiziellen Produktdokumentation von NetApp überprüfen. Jede Abhängigkeit von den generierten Antworten von Doc erfolgt auf eigenes Risiko, und NetApp ist nicht verantwortlich für Probleme oder Schwierigkeiten, die ausschließlich durch die Verwendung der generierten Antworten von Doc auftreten können.
-
-
-
-== Bestimmten Bedingungen
-
-Durch die Verwendung von Doc erklären Sie sich damit einverstanden, bei der Erstellung von Inhalten und Antworten die folgenden Regeln und Bestimmungen einzuhalten. Die Nichtbeachtung dieser Bedingungen kann dazu führen, dass die Verwendung von Doc blockiert wird.
-
-* Versuchen Sie nicht, Doc zu verwenden, um Inhalte zu produzieren, die Schaden, Missbrauch, Gewalt oder Täuschung verursachen könnten.
-* Versuchen Sie nicht, den Doc in Gesprächen einzubinden, die außerhalb des vorgesehenen Zweckes liegen, oder Antworten auf Fragen zu erhalten, die nicht über NetApp Produkte sprechen.
-
+Der generative KI-gestützte Assistent von NetApp, "Doc", ist auf docs.NetApp.com verfügbar. DOC beantwortet Fragen zu NetApp Produkten, wobei nur die auf dieser Website veröffentlichten Inhalte verwendet werden. DOC verwendet keine Inhalte von anderen NetApp-Seiten oder dem öffentlichen Internet, um Fragen zu beantworten.
 
 
 
@@ -53,8 +41,10 @@ DOC gibt Einblicke in die Art und Weise, wie es seine Antworten generiert, und g
 
 == Einschränkungen
 
+* DOC verwendet nur Inhalte, die auf docs.NetApp.com veröffentlicht wurden, um Antworten zu generieren. DOC generiert keine Antworten aus Inhalten, die auf anderen NetApp-Websites veröffentlicht wurden.
+* Während der Beta-Phase bezieht sich Doc nicht auf die gesamte Dokumentation aller NetApp-Produkte. DOC bezieht sich nur auf einen Teil der Dokumentation, einschließlich unter anderem der Dokumente ONTAP, BlueXP , StorageGRID, Keystone und SnapCenter zur Erstellung von Antworten. Wenn Sie nach Informationen suchen, die Doc nicht kennt, mailto:ng-doccoments@NetApp.com[lassen Sie es uns wissen].
 * Wenn ein NetApp-Produkt über mehrere Versionen der Dokumentation verfügt, bezieht sich Doc nur auf die neueste Version, um Antworten zu generieren.
-* Während der Beta-Phase bezieht sich Doc nicht auf die gesamte Dokumentation aller NetApp-Produkte. DOC bezieht sich nur auf eine Teilmenge der Dokumentation, einschließlich, aber nicht beschränkt auf die ONTAP- und BlueXP -Dokumente zur Erstellung von Antworten.
+* DOC bezieht sich nicht auf die Seite, auf der Sie sich befinden, um Annahmen über das Produkt zu machen, das Sie interessieren. Seien Sie so spezifisch wie möglich mit Ihren Fragen, indem Sie Produktnamen und Versionen erwähnen.
 * Obwohl Doc Antworten in anderen Sprachen liefern kann, hat Doc die nicht-englischen Versionen der NetApp-Produktdokumentation nicht gelesen. Um sicherzustellen, dass Sie über möglichst genaue Informationen verfügen, sollten Sie die Antworten von Doc immer auf Englisch prüfen.
 
 
