@@ -42,7 +42,7 @@ DOC gibt Einblicke in die Art und Weise, wie es seine Antworten generiert, und g
 == Einschränkungen
 
 * DOC verwendet nur Inhalte, die auf docs.NetApp.com veröffentlicht wurden, um Antworten zu generieren. DOC generiert keine Antworten aus Inhalten, die auf anderen NetApp-Websites veröffentlicht wurden.
-* Während der Beta-Phase bezieht sich Doc nicht auf die gesamte Dokumentation aller NetApp-Produkte. DOC bezieht sich nur auf einen Teil der Dokumentation, einschließlich unter anderem der Dokumente ONTAP, BlueXP , StorageGRID, Keystone und SnapCenter zur Erstellung von Antworten. Wenn Sie nach Informationen suchen, die Doc nicht kennt, mailto:ng-doccoments@NetApp.com[lassen Sie es uns wissen].
+* Während der Beta-Phase bezieht sich Doc nicht auf die gesamte Dokumentation aller NetApp-Produkte. DOC bezieht sich nur auf einen Teil der Dokumentation, einschließlich unter anderem der Dokumente ONTAP, BlueXP , StorageGRID, Keystone und SnapCenter zur Erstellung von Antworten. Wenn Sie nach Informationen suchen, die Doc nicht kennt, mailto:ng-doccomments@NetApp.com[lassen Sie uns wissen].
 * Wenn ein NetApp-Produkt über mehrere Versionen der Dokumentation verfügt, bezieht sich Doc nur auf die neueste Version, um Antworten zu generieren.
 * DOC bezieht sich nicht auf die Seite, auf der Sie sich befinden, um Annahmen über das Produkt zu machen, das Sie interessieren. Seien Sie so spezifisch wie möglich mit Ihren Fragen, indem Sie Produktnamen und Versionen erwähnen.
 * Obwohl Doc Antworten in anderen Sprachen liefern kann, hat Doc die nicht-englischen Versionen der NetApp-Produktdokumentation nicht gelesen. Um sicherzustellen, dass Sie über möglichst genaue Informationen verfügen, sollten Sie die Antworten von Doc immer auf Englisch prüfen.
@@ -84,4 +84,4 @@ Versuchen Sie verschiedene Muster und Ansätze, um Fragen zu stellen. Wenn Sie n
 
 == Feedback
 
-Wir arbeiten daran, die Dok. Bitte senden Sie uns Feedback im Chat-Fenster von Doc. Lassen Sie uns wissen, ob die Antworten von Doc korrekt und hilfreich sind oder ob sie unvollständig oder in irgendeiner Weise unzureichend sind. Sie können auch mailto:ng-doccoments@netapp.com[contact US] senden, wenn Sie Fragen oder Bedenken bezüglich der Fähigkeiten oder Antworten von Doc haben.
+Wir arbeiten daran, die Dok. Bitte senden Sie uns Feedback im Chat-Fenster von Doc. Lassen Sie uns wissen, ob die Antworten von Doc korrekt und hilfreich sind oder ob sie unvollständig oder in irgendeiner Weise unzureichend sind. Sie können auch mailto:ng-doccomments@netapp.com[contact US] senden, wenn Sie Fragen oder Bedenken bezüglich der Fähigkeiten oder Antworten von Doc haben.

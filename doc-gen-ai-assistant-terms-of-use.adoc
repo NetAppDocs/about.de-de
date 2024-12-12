@@ -31,4 +31,4 @@ Durch die Verwendung von Doc erklären Sie sich damit einverstanden, bei der Ers
 
 == Feedback
 
-Wir arbeiten daran, die Dok. Bitte senden Sie uns Feedback im Chat-Fenster von Doc. Lassen Sie uns wissen, ob die Antworten von Doc korrekt und hilfreich sind oder ob sie unvollständig oder in irgendeiner Weise unzureichend sind. Sie können auch mailto:ng-doccoments@netapp.com[contact US] senden, wenn Sie Fragen oder Bedenken bezüglich der Fähigkeiten oder Antworten von Doc haben.
+Wir arbeiten daran, die Dok. Bitte senden Sie uns Feedback im Chat-Fenster von Doc. Lassen Sie uns wissen, ob die Antworten von Doc korrekt und hilfreich sind oder ob sie unvollständig oder in irgendeiner Weise unzureichend sind. Sie können auch mailto:ng-doccomments@netapp.com[contact US] senden, wenn Sie Fragen oder Bedenken bezüglich der Fähigkeiten oder Antworten von Doc haben.
