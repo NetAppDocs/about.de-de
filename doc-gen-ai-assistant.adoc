@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: doc-gen-ai-assistant.html 
 keywords: netapp, generative ai, doc 
-summary: Der generative KI-gestützte Assistent NetApp ist auf docs.NetApp.com verfügbar. DOC beantwortet Fragen zu NetApp Produkten, wobei nur die auf dieser Website veröffentlichten Inhalte verwendet werden. DOC verwendet keine Inhalte von anderen NetApp-Seiten oder dem öffentlichen Internet, um Fragen zu beantworten. 
+summary: DOC ist der NetApp AI Assistent verfügbar auf docs.NetApp.com. Es beantwortet Fragen, die nur den Inhalt dieser Website verwenden. DOC verwendet keine Inhalte von anderen NetApp-Seiten oder dem öffentlichen Internet, um Fragen zu beantworten. 
 ---
 = Übersicht über den generativen KI-gestützten Assistenten von NetApp
 :hardbreaks:
@@ -13,75 +13,83 @@ summary: Der generative KI-gestützte Assistent NetApp ist auf docs.NetApp.com v
 
 
 [role="lead"]
-Der generative KI-gestützte Assistent von NetApp, "Doc", ist auf docs.NetApp.com verfügbar. DOC beantwortet Fragen zu NetApp Produkten, wobei nur die auf dieser Website veröffentlichten Inhalte verwendet werden. DOC verwendet keine Inhalte von anderen NetApp-Seiten oder dem öffentlichen Internet, um Fragen zu beantworten.
+DOC ist der NetApp AI Assistent verfügbar auf docs.NetApp.com. Es beantwortet Fragen, die nur den Inhalt dieser Website verwenden. DOC verwendet keine Inhalte von anderen NetApp-Seiten oder dem öffentlichen Internet, um Fragen zu beantworten.
+
+DOC kann Antworten aus früheren Fragen erstellen, zusätzliche Fragen vorschlagen und erklären, wie es Antworten generiert. Damit ist es ein wertvolles Tool für die Navigation in der NetApp Dokumentation.
 
 
 
-== Sorgen
+== Umfang und Einschränkungen
 
-* DOC ist kein Elefant, hat aber eine ganze Erinnerung.
+DOC kann nur Fragen beantworten, die auf ausgewählten Inhalten basieren, die auf docs.NetApp.com veröffentlicht wurden.
+
+
+NOTE: Während dieser Beta-Phase ist Doc nicht für alle docs.NetApp.com-Inhalte geschult. Die DOC kann Fragen zu Inhalten beantworten, unter anderem zu Inhalten von ONTAP, BlueXP , StorageGRID, Keystone und SnapCenter. Wenn Sie Informationen benötigen Doc nicht haben, lassen Sie es uns wissen.
+
+* Wenn Sie keine Produktversion angeben, beantwortet Doc die Fragen auf der Grundlage der neuesten veröffentlichten Version. Bei Bedarf können Sie eine frühere Version in Ihrer Frage angeben.
+* DOC weiß nicht, auf welcher Seite Sie sich befinden, wenn Sie eine Frage stellen. Die besten Ergebnisse erzielen Sie, wenn Sie sich an Produktnamen und -Versionen halten.
+* DOC kann in Sprachen chatten, die von docs.NetApp.com unterstützt werden, ist aber nicht auf nicht-englische Versionen geschult.
+
+
+
+
+== Gute Eingabeaufforderungen schreiben
+
+Folgen Sie diesen Tipps für das beste Erlebnis mit Doc.
+
+Stellen Sie konkrete Fragen.:: Schreiben Sie detaillierte Fragen und geben Sie den Produktnamen, die Version und den Schnittstellentyp (GUI, API) an. Beispiel:
 +
-Die meiste Zeit erinnert sich Doc und achtet darauf, was Sie diskutieren. Wenn Doc die Spur einer Konversation verliert, können Sie in derselben Chat-Sitzung eine neue beginnen.
+--
+[]
+====
+Welche Schritte sollte ich im System Manager befolgen, um von ONTAP 9.8 auf ONTAP 9.12.1 zu aktualisieren?
 
-* DOC ist ein begeisterter Leser.
+====
+--
+Bitten Sie um Schritte zum Abschließen einer Aufgabe.:: Bitten Sie den Doc, die Schritte zum Abschließen eines Prozesses zu nennen. Anstatt zu fragen _wie installiere ich den BlueXP  Connector ohne Internet?_ Versuchen Sie:
 +
-Immer wenn unsere Dokumente auf docs.netapp.com veröffentlicht werden (und das passiert viel), liest Doc und kann sie referenzieren, um ihre Antworten zu generieren. Es ist erstaunlich, wie schnell Doc lernt.
+--
+[]
+====
+Welche Schritte sollte ich befolgen, um den BlueXP -Anschluss ohne Internet zu installieren?
 
-* DOC ist beratend.
+====
+--
+Teilen Sie komplexe Fragen in Stücke auf.:: Komplexe Fragen in kleinere Fragen aufteilen (auch bekannt als _Verkettung_). DOC speichert frühere Fragen und erstellt komplexere Antworten, während Sie weiter chatten.
 +
-DOC bietet Vorschläge für Fragen, die Sie zusätzlich zu den von Ihnen gestellten Fragen stellen möchten.
+--
+Anstatt zum Beispiel Doc _wie konfiguriere ich Ransomware-Schutz und Backup-Zeitpläne in BlueXP ?_ Versuchen Sie:
 
-* DOC ist kommunikativ.
+[]
+====
+Welche Schritte sind zur Konfiguration des Ransomware-Schutzes in BlueXP  notwendig?
+
+====
+Fragen Sie dann:
+
+[]
+====
+Welche Schritte sind zur Konfiguration von Backup-Zeitplänen in BlueXP  erforderlich?
+
+====
+--
+Verwenden Sie Anführungszeichen.:: Schließen Sie mehrere Wortsätze in Anführungszeichen ein. Dies hilft Doc, den Ausdruck als ein einziges Konzept zu erkennen, ähnlich wie Sie ihn in einem Gespräch mit einem Menschen hervorheben könnten.
 +
-DOC gibt Einblicke in die Art und Weise, wie es seine Antworten generiert, und gibt Ihnen die Möglichkeit, Ihre Fragen neu zu formulieren.
+--
+Bei dieser Frage beispielsweise _wie wird die Storage-Effizienz in ONTAP berechnet?_ Doc könnte meinen, dass Sie bezüglich _Storage_ und _Effizienz_ zwei Wörter ohne Zusammenhang stellen. Versuchen Sie stattdessen:
 
+[]
+====
+Wie wird die „Storage-Effizienz“ in ONTAP berechnet?
 
-
-
-
-== Einschränkungen
-
-* DOC verwendet nur Inhalte, die auf docs.NetApp.com veröffentlicht wurden, um Antworten zu generieren. DOC generiert keine Antworten aus Inhalten, die auf anderen NetApp-Websites veröffentlicht wurden.
-* Während der Beta-Phase bezieht sich Doc nicht auf die gesamte Dokumentation aller NetApp-Produkte. DOC bezieht sich nur auf einen Teil der Dokumentation, einschließlich unter anderem der Dokumente ONTAP, BlueXP , StorageGRID, Keystone und SnapCenter zur Erstellung von Antworten. Wenn Sie nach Informationen suchen, die Doc nicht kennt, mailto:ng-doccomments@NetApp.com[lassen Sie uns wissen].
-* Wenn ein NetApp-Produkt über mehrere Versionen der Dokumentation verfügt, bezieht sich Doc nur auf die neueste Version, um Antworten zu generieren.
-* DOC bezieht sich nicht auf die Seite, auf der Sie sich befinden, um Annahmen über das Produkt zu machen, das Sie interessieren. Seien Sie so spezifisch wie möglich mit Ihren Fragen, indem Sie Produktnamen und Versionen erwähnen.
-* Obwohl Doc Antworten in anderen Sprachen liefern kann, hat Doc die nicht-englischen Versionen der NetApp-Produktdokumentation nicht gelesen. Um sicherzustellen, dass Sie über möglichst genaue Informationen verfügen, sollten Sie die Antworten von Doc immer auf Englisch prüfen.
-
-
-
-
-== Tipps
-
-* DOC liebt bestimmte Fragen.
-+
-DOC bietet bessere Antworten, wenn Sie explizit einen Produktnamen, eine Schnittstelle (z. B. GUI oder API) und eine Version angeben. Zum Beispiel: _Welche Schritte sollte ich im System Manager befolgen um von ONTAP 9.8 auf ONTAP 9.12.1 zu aktualisieren?_
-
-* Müssen Sie lernen, wie man etwas tut?
-+
-Bitten Sie Doc, die Schritte mit aufzunehmen. Anstatt Doc zu fragen _wie installiere ich den BlueXP -Connector ohne Internet?_ Frage _welche Schritte sollte ich befolgen, um den BlueXP -Connector ohne Internet zu installieren?_
-
-* Stellen Sie einfache Fragen.
-+
-Wenn Sie eine komplexe Frage stellen müssen, teilen Sie sie in kleinere Fragen auf (dies wird manchmal als Verkettung von Fragen bezeichnet). Während einer Chat-Sitzung achtet Doc darauf und merkt sich die Fragen, die Sie stellen.
-
-+
-Anstatt Doc zu fragen _wie konfiguriere ich Ransomware-Schutz und Backup-Zeitpläne in BlueXP ?_ try _wie konfiguriere ich Ransomware-Schutz in BlueXP ?_ und _welche Schritte sind notwendig, um Backup-Zeitpläne in BlueXP  zu konfigurieren?_
-
-* Verwenden Sie Anführungszeichen, um zu klären, wann Doc auf mehrere Wörter achten soll, die Doc falsch interpretieren könnte.
-+
-Wenn Sie beispielsweise Doc fragen: „Wie wird die Storage-Effizienz in ONTAP berechnet?“ – „Doc könnte meinen, Sie hätten Fragen zu Storage und Effizienz als zwei Wörter, die nicht in Verbindung stehen.“ Um sicherzustellen, dass Doc versteht, dass Sie nach (dem Konzept der sogenannten) Storage-Effizienz fragen, wickeln Sie diesen Begriff in Zitate wie so: _Wie wird die Berechnung der „Storage-Effizienz“ in ONTAP berechnet?_
-
-+
-Wenn Sie ein Gespräch mit einem Menschen hatten, würden Sie wahrscheinlich die Phrase betonen, möglicherweise Luftzitate verwenden, oder Geste in einer Weise, die die Unterscheidung offensichtlich macht. Stellen Sie sich die doppelten Anführungszeichen als Geste vor, die Doc dabei unterstützt, zu verstehen, wovon Sie sprechen.
-
-* Nach der Antwort gibt Doc Einblicke in die Art und Weise, wie es seine Antwort generiert hat. Werde gespannt.
-+
-Versuchen Sie verschiedene Muster und Ansätze, um Fragen zu stellen. Wenn Sie nicht das gewünschte Ergebnis erzielen, versuchen Sie, Ihre Frage umzuformulieren.
-
+====
+--
+Überprüfen Sie, wie das Dokument reagiert hat.:: Nach der Antwort gibt Doc Einblicke in die Art und Weise, wie es seine Antwort generiert hat. Dies kann Ihnen Ideen geben, wie Sie Ihre Frage verfeinern können, um die gewünschten Ergebnisse zu erhalten.
+Löschen Sie Ihren Chat-Verlauf:: Wenn Sie Themen ändern möchten, löschen Sie den Chat bei „Start Fresh“. Da Doc frühere Fragen speichert, können Änderungen zu unerwarteten Ergebnissen führen.
 
 
 
 
 == Feedback
 
-Wir arbeiten daran, die Dok. Bitte senden Sie uns Feedback im Chat-Fenster von Doc. Lassen Sie uns wissen, ob die Antworten von Doc korrekt und hilfreich sind oder ob sie unvollständig oder in irgendeiner Weise unzureichend sind. Sie können auch mailto:ng-doccomments@netapp.com[contact US] senden, wenn Sie Fragen oder Bedenken bezüglich der Fähigkeiten oder Antworten von Doc haben.
+Ihr Feedback hilft uns, die Reaktion von Doc zu verbessern. Verwenden Sie das Feedback-Tool im Doc-Chat-Fenster, um uns zu informieren, ob die Antworten korrekt und hilfreich sind oder ob sie verbessert werden müssen. Sie können auch mailto:ng-doccomments@NetApp.com[contact US] mit Fragen oder Feedback.
