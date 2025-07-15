@@ -26,8 +26,8 @@ DOC kann nur Fragen beantworten, die auf ausgewählten Inhalten basieren, die au
 
 NOTE: Während dieser Beta-Phase ist Doc nicht für alle docs.NetApp.com-Inhalte geschult. Die DOC kann Fragen zu Inhalten beantworten, unter anderem zu Inhalten von ONTAP, BlueXP , StorageGRID, Keystone und SnapCenter. Wenn Sie Informationen benötigen Doc nicht haben, lassen Sie es uns wissen.
 
-* Wenn Sie keine Produktversion angeben, beantwortet Doc die Fragen auf der Grundlage der neuesten veröffentlichten Version. Bei Bedarf können Sie eine frühere Version in Ihrer Frage angeben.
-* DOC weiß nicht, auf welcher Seite Sie sich befinden, wenn Sie eine Frage stellen. Die besten Ergebnisse erzielen Sie, wenn Sie sich an Produktnamen und -Versionen halten.
+* Doc beantwortet Fragen ausschließlich auf Grundlage der neuesten veröffentlichten Produktversion. Wenn beispielsweise Dokumentationen für die Versionen 1.0 und 2.0 eines Produkts vorhanden sind, verweist Doc nur auf die neueste Version der Version 2.0.
+* Um optimale Ergebnisse zu erzielen, sollten Sie Produktnamen immer genau angeben. Doc weiß, auf welcher Seite Sie sich befinden, wenn Sie eine Frage stellen, aber dies ist nur einer von mehreren Faktoren, die Doc bei der Formulierung einer Antwort berücksichtigt.
 * DOC kann in Sprachen chatten, die von docs.NetApp.com unterstützt werden, ist aber nicht auf nicht-englische Versionen geschult.
 
 

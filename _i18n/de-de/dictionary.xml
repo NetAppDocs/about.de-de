@@ -72,8 +72,6 @@
   <block id="78d84dc38711d923fa1dc1351e7e5a90" category="section-title">Umfang und Einschränkungen</block>
   <block id="e02e8d81102c18e5ac8688f45881ccb4" category="paragraph">DOC kann nur Fragen beantworten, die auf ausgewählten Inhalten basieren, die auf docs.NetApp.com veröffentlicht wurden.</block>
   <block id="ac9a966db57853c0bb3b03769804fffe" category="admonition">Während dieser Beta-Phase ist Doc nicht für alle docs.NetApp.com-Inhalte geschult. Die DOC kann Fragen zu Inhalten beantworten, unter anderem zu Inhalten von ONTAP, BlueXP , StorageGRID, Keystone und SnapCenter. Wenn Sie Informationen benötigen Doc nicht haben, lassen Sie es uns wissen.</block>
-  <block id="5cce09c2cd6acff384726d4c5913b10a" category="list-text">Wenn Sie keine Produktversion angeben, beantwortet Doc die Fragen auf der Grundlage der neuesten veröffentlichten Version. Bei Bedarf können Sie eine frühere Version in Ihrer Frage angeben.</block>
-  <block id="ba2e07590de589acb6827cadda0ba814" category="list-text">DOC weiß nicht, auf welcher Seite Sie sich befinden, wenn Sie eine Frage stellen. Die besten Ergebnisse erzielen Sie, wenn Sie sich an Produktnamen und -Versionen halten.</block>
   <block id="d3aab3cd74c1c5868499ccc53ebe0a75" category="list-text">DOC kann in Sprachen chatten, die von docs.NetApp.com unterstützt werden, ist aber nicht auf nicht-englische Versionen geschult.</block>
   <block id="e4a95039ccdfb7b85c839ab71de68d99" category="section-title">Gute Eingabeaufforderungen schreiben</block>
   <block id="b0d6ece087301f0de0e69fb8d2e2b5ec" category="paragraph">Folgen Sie diesen Tipps für das beste Erlebnis mit Doc.</block>
@@ -98,4 +96,6 @@
   <block id="e10d7022bccbf44b070810cd5909184e" category="list-text">Löschen Sie Ihren Chat-Verlauf</block>
   <block id="3508984ba8ee3276c733e57293128c50" category="list-text">Wenn Sie Themen ändern möchten, löschen Sie den Chat bei „Start Fresh“. Da Doc frühere Fragen speichert, können Änderungen zu unerwarteten Ergebnissen führen.</block>
   <block id="5ac85d6acb2d0e353a29dbf8a61e4a47" category="paragraph">Ihr Feedback hilft uns, die Reaktion von Doc zu verbessern. Verwenden Sie das Feedback-Tool im Doc-Chat-Fenster, um uns zu informieren, ob die Antworten korrekt und hilfreich sind oder ob sie verbessert werden müssen. Sie können auch mailto:ng-doccomments@NetApp.com[contact US] mit Fragen oder Feedback.</block>
+  <block id="430fdc9d9149c8cc43c466b7320e92b9" category="list-text">Doc beantwortet Fragen ausschließlich auf Grundlage der neuesten veröffentlichten Produktversion. Wenn beispielsweise Dokumentationen für die Versionen 1.0 und 2.0 eines Produkts vorhanden sind, verweist Doc nur auf die neueste Version der Version 2.0.</block>
+  <block id="9f1b245deb3e474f47cde2de8fa217be" category="list-text">Um optimale Ergebnisse zu erzielen, sollten Sie Produktnamen immer genau angeben. Doc weiß, auf welcher Seite Sie sich befinden, wenn Sie eine Frage stellen, aber dies ist nur einer von mehreren Faktoren, die Doc bei der Formulierung einer Antwort berücksichtigt.</block>
 </blocks>
