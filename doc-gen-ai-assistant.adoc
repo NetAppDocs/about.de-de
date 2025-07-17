@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: doc-gen-ai-assistant.html 
 keywords: netapp, generative ai, doc 
-summary: DOC ist der NetApp AI Assistent verfügbar auf docs.NetApp.com. Es beantwortet Fragen, die nur den Inhalt dieser Website verwenden. DOC verwendet keine Inhalte von anderen NetApp-Seiten oder dem öffentlichen Internet, um Fragen zu beantworten. 
+summary: DOC ist unser generativer KI-gestützter Assistent auf docs.netapp.com. DOC wurde entwickelt, um auf Fragen zu NetApp-Produkten zu antworten, und verwendet dabei Inhalte, die auf docs.NetApp.com veröffentlicht wurden. 
 ---
 = Übersicht über den generativen KI-gestützten Assistenten von NetApp
 :hardbreaks:
@@ -13,7 +13,7 @@ summary: DOC ist der NetApp AI Assistent verfügbar auf docs.NetApp.com. Es bean
 
 
 [role="lead"]
-DOC ist der NetApp AI Assistent verfügbar auf docs.NetApp.com. Es beantwortet Fragen, die nur den Inhalt dieser Website verwenden. DOC verwendet keine Inhalte von anderen NetApp-Seiten oder dem öffentlichen Internet, um Fragen zu beantworten.
+DOC ist unser generativer KI-gestützter Assistent auf docs.netapp.com. DOC wurde entwickelt, um auf Fragen zu NetApp-Produkten zu antworten, und verwendet dabei Inhalte, die auf docs.NetApp.com veröffentlicht wurden.
 
 DOC kann Antworten aus früheren Fragen erstellen, zusätzliche Fragen vorschlagen und erklären, wie es Antworten generiert. Damit ist es ein wertvolles Tool für die Navigation in der NetApp Dokumentation.
 
@@ -24,7 +24,7 @@ DOC kann Antworten aus früheren Fragen erstellen, zusätzliche Fragen vorschlag
 DOC kann nur Fragen beantworten, die auf ausgewählten Inhalten basieren, die auf docs.NetApp.com veröffentlicht wurden.
 
 
-NOTE: Während dieser Beta-Phase ist Doc nicht für alle docs.NetApp.com-Inhalte geschult. Die DOC kann Fragen zu Inhalten beantworten, unter anderem zu Inhalten von ONTAP, BlueXP , StorageGRID, Keystone und SnapCenter. Wenn Sie Informationen benötigen Doc nicht haben, lassen Sie es uns wissen.
+NOTE: Während der Betaphase nutzt Doc die meisten, aber nicht alle auf docs.netapp.com veröffentlichten Inhalte, um Fragen zu beantworten. Doc kennt alle Dokumentationen zu ONTAP, BlueXP, StorageGRID, E-Series, Keystone und SnapCenter und nutzt diese, um Fragen zu diesen Produkten zu beantworten. Mit den Dokumentationen einiger älterer Produkte ist Doc hingegen nicht vertraut. Beispielsweise verwendet Doc keine SnapDrive for UNIX -Dokumente, um Antworten zu geben. Während der Betaphase arbeiten wir daran, Docs Wissen zu vertiefen. Wenn Sie Informationen benötigen, die Doc nicht hat, senden Sie eine E-Mail an ng-doccomments@netapp.com [lassen Sie es uns wissen].
 
 * Doc beantwortet Fragen ausschließlich auf Grundlage der neuesten veröffentlichten Produktversion. Wenn beispielsweise Dokumentationen für die Versionen 1.0 und 2.0 eines Produkts vorhanden sind, verweist Doc nur auf die neueste Version der Version 2.0.
 * Um optimale Ergebnisse zu erzielen, sollten Sie Produktnamen immer genau angeben. Doc weiß, auf welcher Seite Sie sich befinden, wenn Sie eine Frage stellen, aber dies ist nur einer von mehreren Faktoren, die Doc bei der Formulierung einer Antwort berücksichtigt.
@@ -85,11 +85,11 @@ Wie wird die „Storage-Effizienz“ in ONTAP berechnet?
 ====
 --
 Überprüfen Sie, wie das Dokument reagiert hat.:: Nach der Antwort gibt Doc Einblicke in die Art und Weise, wie es seine Antwort generiert hat. Dies kann Ihnen Ideen geben, wie Sie Ihre Frage verfeinern können, um die gewünschten Ergebnisse zu erhalten.
-Löschen Sie Ihren Chat-Verlauf:: Wenn Sie Themen ändern möchten, löschen Sie den Chat bei „Start Fresh“. Da Doc frühere Fragen speichert, können Änderungen zu unerwarteten Ergebnissen führen.
+Löschen Sie Ihren Chat-Verlauf:: Wenn Sie das Thema wechseln möchten (z. B. um eine Frage zu einem anderen Produkt zu stellen), löschen Sie den Chatverlauf, um eine neue Sitzung zu starten. Wenn Sie den Chatverlauf nicht löschen, bevor Sie ein neues Thema starten, erhalten Sie möglicherweise ungenaue Ergebnisse.
 
 
 
 
 == Feedback
 
-Ihr Feedback hilft uns, die Reaktion von Doc zu verbessern. Verwenden Sie das Feedback-Tool im Doc-Chat-Fenster, um uns zu informieren, ob die Antworten korrekt und hilfreich sind oder ob sie verbessert werden müssen. Sie können auch mailto:ng-doccomments@NetApp.com[contact US] mit Fragen oder Feedback.
+Wir arbeiten daran, die Dok. Bitte senden Sie uns Feedback im Chat-Fenster von Doc. Lassen Sie uns wissen, ob die Antworten von Doc korrekt und hilfreich sind oder ob sie unvollständig oder in irgendeiner Weise unzureichend sind. Sie können auch mailto:ng-doccomments@netapp.com[contact US] senden, wenn Sie Fragen oder Bedenken bezüglich der Fähigkeiten oder Antworten von Doc haben.
