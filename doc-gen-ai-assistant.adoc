@@ -24,7 +24,7 @@ DOC kann Antworten aus früheren Fragen erstellen, zusätzliche Fragen vorschlag
 DOC kann nur Fragen beantworten, die auf ausgewählten Inhalten basieren, die auf docs.NetApp.com veröffentlicht wurden.
 
 
-NOTE: Während der Betaphase nutzt Doc die meisten, aber nicht alle auf docs.netapp.com veröffentlichten Inhalte, um Fragen zu beantworten. Doc kennt alle Dokumentationen zu ONTAP, BlueXP, StorageGRID, E-Series, Keystone und SnapCenter und nutzt diese, um Fragen zu diesen Produkten zu beantworten. Mit den Dokumentationen einiger älterer Produkte ist Doc hingegen nicht vertraut. Beispielsweise verwendet Doc keine SnapDrive for UNIX -Dokumente, um Antworten zu geben. Während der Betaphase arbeiten wir daran, Docs Wissen zu vertiefen. Wenn Sie Informationen benötigen, die Doc nicht hat, senden Sie eine E-Mail an ng-doccomments@netapp.com [lassen Sie es uns wissen].
+NOTE: Während der Betaphase verwendet Doc die meisten, aber nicht alle auf docs.netapp.com veröffentlichten Inhalte, um Fragen zu beantworten.  Doc ist mit allen Dokumenten zu ONTAP, NetApp Console, StorageGRID, E-Series, Keystone und SnapCenter vertraut und verwendet sie, um Fragen zu diesen Produkten zu beantworten.  Andererseits ist Doc mit der Dokumentation einiger älterer Produkte nicht vertraut.  Beispielsweise verwendet Doc SnapDrive for UNIX -Dokumente nicht, um Antworten bereitzustellen.  Während der gesamten Beta arbeiten wir daran, Docs Wissen zu verfeinern.  Wenn Sie Informationen benötigen, die Doc nicht hat, senden Sie eine E-Mail an:ng-doccomments@netapp.com [lassen Sie es uns wissen].
 
 * Doc beantwortet Fragen ausschließlich auf Grundlage der neuesten veröffentlichten Produktversion. Wenn beispielsweise Dokumentationen für die Versionen 1.0 und 2.0 eines Produkts vorhanden sind, verweist Doc nur auf die neueste Version der Version 2.0.
 * Um optimale Ergebnisse zu erzielen, sollten Sie Produktnamen immer genau angeben. Doc weiß, auf welcher Seite Sie sich befinden, wenn Sie eine Frage stellen, aber dies ist nur einer von mehreren Faktoren, die Doc bei der Formulierung einer Antwort berücksichtigt.
@@ -46,30 +46,30 @@ Welche Schritte sollte ich im System Manager befolgen, um von ONTAP 9.8 auf ONTA
 
 ====
 --
-Bitten Sie um Schritte zum Abschließen einer Aufgabe.:: Bitten Sie den Doc, die Schritte zum Abschließen eines Prozesses zu nennen. Anstatt zu fragen _wie installiere ich den BlueXP  Connector ohne Internet?_ Versuchen Sie:
+Bitten Sie um Schritte zum Abschließen einer Aufgabe.:: Bitten Sie Doc, die Schritte zum Abschließen eines Vorgangs anzugeben.  Anstatt zu fragen: „Wie installiere ich den NetApp Console-Agenten ohne Internet?“, versuchen Sie Folgendes:
 +
 --
 []
 ====
-Welche Schritte sollte ich befolgen, um den BlueXP -Anschluss ohne Internet zu installieren?
+Welche Schritte muss ich befolgen, um den NetApp Console-Agent ohne Internet zu installieren?
 
 ====
 --
 Teilen Sie komplexe Fragen in Stücke auf.:: Komplexe Fragen in kleinere Fragen aufteilen (auch bekannt als _Verkettung_). DOC speichert frühere Fragen und erstellt komplexere Antworten, während Sie weiter chatten.
 +
 --
-Anstatt zum Beispiel Doc _wie konfiguriere ich Ransomware-Schutz und Backup-Zeitpläne in BlueXP ?_ Versuchen Sie:
+Anstatt beispielsweise im Dokument „Wie konfiguriere ich Ransomware-Schutz und Sicherungspläne in der NetApp Konsole?“ zu fragen, versuchen Sie es mit:
 
 []
 ====
-Welche Schritte sind zur Konfiguration des Ransomware-Schutzes in BlueXP  notwendig?
+Welche Schritte sind zum Konfigurieren des Ransomware-Schutzes in der NetApp Konsole erforderlich?
 
 ====
 Fragen Sie dann:
 
 []
 ====
-Welche Schritte sind zur Konfiguration von Backup-Zeitplänen in BlueXP  erforderlich?
+Welche Schritte sind zum Konfigurieren von Sicherungszeitplänen in der NetApp Konsole erforderlich?
 
 ====
 --
