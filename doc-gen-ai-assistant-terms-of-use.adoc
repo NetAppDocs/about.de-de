@@ -15,7 +15,7 @@ summary: DOC ist unser generativer KI-gestützter Assistent auf docs.netapp.com.
 [role="lead"]
 DOC ist unser generativer KI-gestützter Assistent auf docs.netapp.com. DOC wurde entwickelt, um auf Fragen zu NetApp-Produkten zu antworten, und verwendet dabei Inhalte, die auf docs.NetApp.com veröffentlicht wurden. Beispielsweise beantwortet Doc Fragen zu NetApp Storage-Effizienzfunktionen oder Best Practices für Backup und Recovery in Multi-Cloud-Umgebungen.
 
-Diese Beta-Version von Doc erstellt algorithmisch generierte Inhalte, die Fehler oder Ungenauigkeiten enthalten können. Alle generierten Inhalte sollten nur als Ausgangspunkt verwendet werden. Sie sollten die Antworten von Doc immer in der offiziellen Produktdokumentation von NetApp überprüfen. Jede Abhängigkeit von den generierten Antworten von Doc erfolgt auf eigenes Risiko, und NetApp ist nicht verantwortlich für Probleme oder Schwierigkeiten, die ausschließlich durch die Verwendung der generierten Antworten von Doc auftreten können.
+Doc erstellt algorithmisch generierte Inhalte, die Fehler oder Ungenauigkeiten enthalten können. Alle generierten Inhalte sollten nur als Ausgangspunkt verwendet werden. Sie sollten die Antworten von Doc stets anhand der offiziellen Produktdokumentation von NetApp überprüfen. Die Nutzung der von Doc generierten Antworten erfolgt auf eigene Gefahr, und NetApp übernimmt keine Verantwortung für etwaige Probleme oder Schwierigkeiten, die durch die ausschließliche Verwendung der von Doc generierten Antworten entstehen können.
 
 
 
