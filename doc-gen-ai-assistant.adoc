@@ -21,7 +21,7 @@ DOC kann Antworten aus früheren Fragen erstellen, zusätzliche Fragen vorschlag
 
 == Umfang und Einschränkungen
 
-DOC kann nur Fragen beantworten, die auf ausgewählten Inhalten basieren, die auf docs.NetApp.com veröffentlicht wurden.
+Doc kann nur Fragen beantworten, die sich auf Inhalte beziehen, die auf docs.netapp.com veröffentlicht wurden.
 
 * Doc beantwortet Fragen ausschließlich auf Grundlage der neuesten veröffentlichten Produktversion. Wenn beispielsweise Dokumentationen für die Versionen 1.0 und 2.0 eines Produkts vorhanden sind, verweist Doc nur auf die neueste Version der Version 2.0.
 * Um optimale Ergebnisse zu erzielen, sollten Sie Produktnamen immer genau angeben. Doc weiß, auf welcher Seite Sie sich befinden, wenn Sie eine Frage stellen, aber dies ist nur einer von mehreren Faktoren, die Doc bei der Formulierung einer Antwort berücksichtigt.

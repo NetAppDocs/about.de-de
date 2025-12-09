@@ -68,7 +68,6 @@
   <block id="858a13328205a50b4d4ea7a8e790b8b7" category="paragraph">Wir arbeiten daran, die Dok. Bitte senden Sie uns Feedback im Chat-Fenster von Doc. Lassen Sie uns wissen, ob die Antworten von Doc korrekt und hilfreich sind oder ob sie unvollständig oder in irgendeiner Weise unzureichend sind. Sie können auch mailto:ng-doccomments@netapp.com[contact US] senden, wenn Sie Fragen oder Bedenken bezüglich der Fähigkeiten oder Antworten von Doc haben.</block>
   <block id="6179d3ef872af4eb960f4c34232845fc" category="paragraph">DOC kann Antworten aus früheren Fragen erstellen, zusätzliche Fragen vorschlagen und erklären, wie es Antworten generiert. Damit ist es ein wertvolles Tool für die Navigation in der NetApp Dokumentation.</block>
   <block id="78d84dc38711d923fa1dc1351e7e5a90" category="section-title">Umfang und Einschränkungen</block>
-  <block id="e02e8d81102c18e5ac8688f45881ccb4" category="paragraph">DOC kann nur Fragen beantworten, die auf ausgewählten Inhalten basieren, die auf docs.NetApp.com veröffentlicht wurden.</block>
   <block id="d3aab3cd74c1c5868499ccc53ebe0a75" category="list-text">DOC kann in Sprachen chatten, die von docs.NetApp.com unterstützt werden, ist aber nicht auf nicht-englische Versionen geschult.</block>
   <block id="e4a95039ccdfb7b85c839ab71de68d99" category="section-title">Gute Eingabeaufforderungen schreiben</block>
   <block id="b0d6ece087301f0de0e69fb8d2e2b5ec" category="paragraph">Folgen Sie diesen Tipps für das beste Erlebnis mit Doc.</block>
@@ -96,4 +95,5 @@
   <block id="a4a2ff9e664b60a6bdd6cdbe4fcc1447" category="paragraph">Welche Schritte sind zum Konfigurieren des Ransomware-Schutzes in der NetApp Konsole erforderlich?</block>
   <block id="98d95c2ccd0fa7f85c70c1ac654e2ac2" category="paragraph">Welche Schritte sind zum Konfigurieren von Sicherungszeitplänen in der NetApp Konsole erforderlich?</block>
   <block id="c1dd50d72cdca10e54e035173567497f" category="paragraph">Doc erstellt algorithmisch generierte Inhalte, die Fehler oder Ungenauigkeiten enthalten können. Alle generierten Inhalte sollten nur als Ausgangspunkt verwendet werden. Sie sollten die Antworten von Doc stets anhand der offiziellen Produktdokumentation von NetApp überprüfen. Die Nutzung der von Doc generierten Antworten erfolgt auf eigene Gefahr, und NetApp übernimmt keine Verantwortung für etwaige Probleme oder Schwierigkeiten, die durch die ausschließliche Verwendung der von Doc generierten Antworten entstehen können.</block>
+  <block id="8a5bdbcb5016ac5e4f002667c3de782f" category="paragraph">Doc kann nur Fragen beantworten, die sich auf Inhalte beziehen, die auf docs.netapp.com veröffentlicht wurden.</block>
 </blocks>
