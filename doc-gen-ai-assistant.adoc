@@ -19,6 +19,7 @@ DOC kann Antworten aus früheren Fragen erstellen, zusätzliche Fragen vorschlag
 
 
 
+[[scope-and-limitations]]
 == Umfang und Einschränkungen
 
 Doc kann nur Fragen beantworten, die sich auf Inhalte beziehen, die auf docs.netapp.com veröffentlicht wurden.
@@ -30,6 +31,7 @@ Doc kann nur Fragen beantworten, die sich auf Inhalte beziehen, die auf docs.net
 
 
 
+[[writing-good-prompts]]
 == Gute Eingabeaufforderungen schreiben
 
 Folgen Sie diesen Tipps für das beste Erlebnis mit Doc.
@@ -87,6 +89,7 @@ Löschen Sie Ihren Chat-Verlauf:: Wenn Sie das Thema wechseln möchten (z. B. um
 
 
 
+[[feedback]]
 == Feedback
 
 Wir arbeiten daran, die Dok. Bitte senden Sie uns Feedback im Chat-Fenster von Doc. Lassen Sie uns wissen, ob die Antworten von Doc korrekt und hilfreich sind oder ob sie unvollständig oder in irgendeiner Weise unzureichend sind. Sie können auch mailto:ng-doccomments@netapp.com[contact US] senden, wenn Sie Fragen oder Bedenken bezüglich der Fähigkeiten oder Antworten von Doc haben.
