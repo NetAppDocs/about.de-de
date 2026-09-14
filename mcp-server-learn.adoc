@@ -1,0 +1,74 @@
+---
+sidebar: sidebar 
+permalink: mcp-server-learn.html 
+keywords:  
+summary:  
+---
+= Informationen zum docs.netapp.com MCP Server
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Der docs.netapp.com Model Context Protocol (MCP) Server bietet eine standardisierte, agentenfähige Integrationsschicht vor bestehender NetApp Dokumentation und Retrieval-Augmented Generation (RAG) Diensten. Damit können KI-Agenten mit technischem Unternehmenswissen in natürlicher Sprache interagieren, ohne dass eine direkte REST API Integration oder die Entwicklung benutzerdefinierter Pipelines erforderlich ist.
+
+
+
+[[use-cases]]
+== Anwendungsfälle
+
+Durch die Bereitstellung eines strukturierten Zugriffs auf die NetApp Dokumentation ermöglicht der docs.netapp.com MCP Server KI-Agenten Folgendes:
+
+* Relevante Dokumentation
+* Vollständigen Dokumentinhalt abrufen
+* Antworten auf Basis der Dokumentation generieren (RAG-basierte Antwortgenerierung)
+* Fundierte, nachvollziehbare Antworten bereitstellen
+
+
+Der MCP-Server von docs.netapp.com kann für Folgendes verwendet werden:
+
+* Agentenbasierte Entwicklungsumgebungen werden mit NetApp Inhalten erweitert.
+* Engineering- und Support-Workflows, die eine verlässliche Dokumentation benötigen, werden unterstützt.
+* Der Bedarf, benutzerdefinierte Such-, Abruf- oder RAG-Integrationen zu erstellen und zu pflegen, wird reduziert.
+* Antworten, die auf offizieller NetApp Dokumentation basieren, werden bereitgestellt.
+
+
+
+
+[[how-the-docs-netapp-com-mcp-server-works]]
+== Funktionsweise des MCP-Servers von docs.netapp.com
+
+Der MCP Server fungiert als Schnittstelle zur offiziellen NetApp Dokumentation und liefert fundierte Antworten aus veröffentlichten Inhalten.
+
+. Der KI-Agent sendet eine Anfrage an den MCP Server.
+. Der MCP Server ruft die relevante Dokumentation ab.
+. Das System liefert eine strukturierte, fundierte Antwort.
+
+
+
+
+[[requirements]]
+== Anforderungen
+
+* Für den Zugriff auf den MCP-Server ist ein Abonnementschlüssel erforderlich. Zur Anforderung eines Schlüssels kann ng-docs-mcp@netapp.com mit einer kurzen Beschreibung des Anwendungsfalls kontaktiert werden.
+* Zu den unterstützten Clients gehören MCP-kompatible Umgebungen wie Visual Studio Code mit GitHub Copilot, Claude Desktop, Cursor und Python-basierten Agenten-Frameworks.
+* Die geltenden NetApp-Nutzungsbedingungen für die Dokumentation und die Richtlinien zur Zugriffskontrolle sowie zur Governance müssen beachtet werden.
+
+
+
+
+[[limitations]]
+== Einschränkungen
+
+* Der MCP-Server fragt Inhalte ab, die auf docs.netapp.com veröffentlicht wurden. Er greift nicht auf private Mandantendaten oder interne Benutzerprofilinformationen zu.
+* Die Inhalte beschränken sich auf die auf docs.netapp.com veröffentlichten Inhalte und ersetzen weder Produkttelemetrie, Clusterstatus noch andere umgebungsspezifische Datenquellen.
+* Die Qualität der Antworten kann davon beeinflusst werden, wie der Client-Agent die verfügbaren Tools nutzt und die Suchergebnisse weiterverfolgt.
+* Der Dienst wird zustandslos auf skalierbarer Cloud-Infrastruktur bereitgestellt, daher hängen Latenz und Aktualität von den nachgelagerten Dokumentations- und RAG-Diensten ab.
+
+
+.Was kommt als Nächstes?
+xref:mcp-server-get-started.html[Erste Schritte mit dem docs.netapp.com MCP Server]

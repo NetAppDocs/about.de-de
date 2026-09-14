@@ -1,0 +1,244 @@
+---
+sidebar: sidebar 
+permalink: mcp-server-get-started.html 
+keywords:  
+summary:  
+---
+= Erste Schritte mit dem docs.netapp.com MCP Server
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Verbinden Sie Ihre KI-Entwicklungsumgebung mit dem Model Context Protocol (MCP) Server von docs.netapp.com. Nach der Konfiguration des MCP-Servers kann dieser verwendet werden, um fundierte Antworten aus der veröffentlichten NetApp Dokumentation bereitzustellen.
+
+
+
+[[prerequisites]]
+== Voraussetzungen
+
+Vor der Konfiguration des docs.netapp.com MCP Servers sollte Folgendes überprüft werden:
+
+* Sie haben die Anforderungen und Einschränkungen in link:mcp-server-learn.html["Informationen zum docs.netapp.com MCP Server"] geprüft.
+* Sie haben Zugriff auf einen unterstützten MCP-kompatiblen Client wie Visual Studio Code mit GitHub Copilot, Claude Desktop, Cursor oder Python-basierten Agenten-Frameworks.
+* Sie benötigen einen gültigen Abonnementschlüssel. Ohne Schlüssel schlagen MCP-Anfragen fehl und es wird ein Zugriffsfehler zurückgegeben. Für die Anforderung eines Abonnementschlüssels kann ng-docs-mcp@netapp.com mit einer kurzen Beschreibung des Anwendungsfalls kontaktiert werden.
+* Sie haben Netzwerkzugriff auf den docs.netapp.com MCP-Endpunkt: `\https://docs.netapp.com/mcp`.
+
+
+
+
+[[configure-your-development-environment]]
+== Entwicklungsumgebung konfigurieren
+
+Wählen Sie die für Ihre Umgebung passende Einrichtungsoption.
+
+* <<Visual Studio Code Einrichtung>>
+* <<Python KI-Agentenintegration>>
+* <<Claude Desktop Konfiguration>>
+* <<Cursor-Konfiguration>>
+
+
+
+
+[[visual-studio-code-setup]]
+=== Visual Studio Code Einrichtung
+
+Sie können von Visual Studio Code aus eine Verbindung zum MCP-Server mit GitHub Copilot herstellen, indem eine  `mcp.json` Datei konfiguriert wird.
+
+.Bevor Sie beginnen
+* Für diese Aufgabe ist Visual Studio Code mit der aktivierten GitHub Copilot-Erweiterung erforderlich.
+
+
+.Schritte
+. Im Projektarbeitsbereich in Visual Studio Code sind die folgenden Schritte auszuführen:
++
+.. Einen Ordner mit dem Namen `.vscode` erstellen
+.. Eine Datei im Ordner mit dem Namen `mcp.json` erstellen
+
+
+. Die  `mcp.json` Datei konfigurieren.
++
+[source, json]
+----
+{
+  "servers": {
+    "netapp-docs-mcp": {
+      "type": "http",
+      "url": "https://docs.netapp.com/mcp",
+      "headers": {
+        "Ocp-Apim-Subscription-Key": "${input:Ocp-Apim-Subscription-Key}"
+      }
+    }
+  },
+  "inputs": [
+    {
+      "type": "promptString",
+      "id": "Ocp-Apim-Subscription-Key",
+      "description": "Enter your access key",
+      "password": true
+    }
+  ]
+}
+----
+. Die Datei wird gespeichert.
+. Optional kann globaler Zugriff konfiguriert werden.
++
+Um den docs.netapp.com MCP Server für alle Visual Studio Code Projekte und Arbeitsbereiche zu konfigurieren, ist die Konfiguration im globalen Benutzereinstellungsverzeichnis hinzuzufügen.
+
++
+** *Windows*: `C:\Users\<your_username>\AppData\Roaming\Code\User\mcp.json`
+** *macOS*: `~/Library/Application Support/Code/User/mcp.json`
++
+Die Serverdefinition hinzufügen:
+
++
+[source, json]
+----
+{
+  "servers": {
+    "netapp-docs-mcp": {
+      "type": "http",
+      "url": "https://docs.netapp.com/mcp",
+      "headers": {
+        "Ocp-Apim-Subscription-Key": "${input:Ocp-Apim-Subscription-Key}"
+      }
+    }
+  },
+  "inputs": [
+    {
+      "type": "promptString",
+      "id": "Ocp-Apim-Subscription-Key",
+      "description": "Enter your access key",
+      "password": true
+    }
+  ]
+}
+----
++
+
+NOTE: Nachdem die globale  `mcp.json` Datei geändert wurde, wird Visual Studio Code neu gestartet, damit die Konfiguration übernommen wird.
+
+
+
+. Die Konfiguration wird überprüft.
++
+.. Visual Studio Code im Arbeitsbereich öffnen.
+.. Bestätigen Sie, dass die  `.vscode/mcp.json` Datei vorhanden ist.
+.. Stellen Sie eine Frage mit Copilot.
++
+.Beispiel
+Worin bestehen die Unterschiede zwischen ONTAP und Cloud Volumes ONTAP?
+
+
+
+
+
+
+
+[[python-ai-agent-integration]]
+=== Python KI-Agentenintegration
+
+Diese Option eignet sich, wenn Anwendungen oder KI-Agenten entwickelt werden, die den MCP Server direkt aufrufen.
+
+Ihr Client stellt eine Verbindung zum MCP-Endpunkt her und ruft die Tools auf.
+
+[source, python]
+----
+client = MCPClient("https://docs.netapp.com/mcp",
+  headers={
+          "Ocp-Apim-Subscription-Key": "<YOUR_API_KEY>"
+      }
+  )
+response = client.call_tool("netapp_docs_ask", {
+    "question": "What are ONTAP upgrade steps?"
+})
+
+----
+
+
+[[claude-desktop-configuration]]
+=== Claude Desktop Konfiguration
+
+Zur Registrierung des docs.netapp.com MCP Servers bei Claude Desktop ist die MCP Konfigurationsdatei zu aktualisieren:
+
+* *macOS*: `~/Library/Application Support/Claude/claude_desktop_config.json`
+* *Windows*: `%APPDATA%\Claude\claude_desktop_config.json`
+
+
+[source, json]
+----
+{
+  "mcpServers": {
+    "netapp-docs-mcp": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-remote",
+        "https://docs.netapp.com/mcp",
+        "--header",
+        "Ocp-Apim-Subscription-Key:${NETAPP_MCP_KEY}"
+      ],
+      "env": {
+        "NETAPP_MCP_KEY": "paste-your-subscription-key-here"
+      }
+    }
+  }
+}
+----
+
+
+[[cursor-configuration]]
+=== Cursor-Konfiguration
+
+Zur Registrierung des docs.netapp.com MCP Servers bei Cursor ist die MCP Konfigurationsdatei zu aktualisieren.
+
+Um die Konfiguration global anzuwenden, sind die folgenden Pfade zu verwenden:
+
+* *Mac OS*: `~/.cursor/mcp.json`
+* *Windows*: `%USERPROFILE%\.cursor\mcp.json`
+
+
+Um die Konfiguration in einem einzelnen Projekt anzuwenden, wird  `.cursor/mcp.json` im Projektstammverzeichnis verwendet.
+
+
+NOTE: Falls die Datei bereits andere MCP-Server konfiguriert hat,  `netapp-docs-mcp` innerhalb des bestehenden  `mcpServers` Objekts hinzufügen (dabei ist darauf zu achten, nach dem vorherigen Eintrag ein Komma zu setzen). Falls kein  `mcpServers` Schlüssel vorhanden ist, den Schlüssel auf oberster Ebene neben anderen Einstellungen hinzufügen.
+
+[source, json]
+----
+{
+  "mcpServers": {
+    "netapp-docs-mcp": {
+      "url": "https://docs.netapp.com/mcp",
+      "headers": {
+        "Ocp-Apim-Subscription-Key": "paste-your-subscription-key-here"
+      }
+    }
+  }
+}
+----
+
+
+[[use-the-docs-netapp-com-mcp-server]]
+== Der MCP-Server von docs.netapp.com wird verwendet.
+
+Nachdem Sie den MCP-Server konfiguriert haben, ist eine Interaktion mit der technischen Dokumentation von NetApp direkt in Visual Studio Code oder der gewählten Client-Oberfläche möglich.
+
+.Über diese Aufgabe
+* Der KI-Client wählt basierend auf Ihrer Anfrage ein geeignetes Tool aus, um Ergebnisse bereitzustellen.
+* Klare, vollständige Fragen anstelle von kurzen oder vagen Anfragen verwenden.
+* Antworten basieren stets auf offizieller NetApp-Dokumentation.
+
+
+.Schritte
+. Chat im bevorzugten MCP-kompatiblen Client öffnen.
+. Der konfigurierte MCP Server kann aufgerufen werden, um eine klare Frage zu NetApp Produkten oder Verfahren zu stellen.
+. Die begründete Antwort wird überprüft.
+
+
+.Verwandte Informationen
+* link:mcp-developer-reference.html["Entwicklerreferenz"]
+
