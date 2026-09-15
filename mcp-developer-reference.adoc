@@ -59,7 +59,7 @@ Der docs.netapp.com MCP-Server bietet ein kleines, fokussiertes Toolset für die
 
 Der Server stellt aktuell folgende Tools bereit:
 
-* `netapp_docs_ask`: Generiert dokumentationsbasierte Antworten mithilfe eines retrieval-augmented Generation-Workflows.
+* `netapp_docs_ask`: Generiert Antworten, die aus auf docs.netapp.com veröffentlichten Inhalten abgeleitet werden, mithilfe eines Retrieval-augmented Generation-Workflows.
 * `netapp_docs_search`: Ermittelt relevante NetApp Dokumentationsseiten mithilfe von Stichwort- und natürlichsprachlichen Abfragen.
 * `netapp_docs_fetch`: Ruft den strukturierten Inhalt einer bestimmten Dokumentationsseite oder eines bestimmten Artikels ab.
 * `health_check`: Überprüft die Verfügbarkeit des MCP Servers.

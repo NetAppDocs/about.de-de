@@ -23,10 +23,10 @@ Der docs.netapp.com Model Context Protocol (MCP) Server bietet eine standardisie
 
 Durch die Bereitstellung eines strukturierten Zugriffs auf die NetApp Dokumentation ermöglicht der docs.netapp.com MCP Server KI-Agenten Folgendes:
 
-* Relevante Dokumentation
-* Vollständigen Dokumentinhalt abrufen
-* Antworten auf Basis der Dokumentation generieren (RAG-basierte Antwortgenerierung)
-* Fundierte, nachvollziehbare Antworten bereitstellen
+* Relevante Dokumentation.
+* Vollständigen Dokumentinhalt abrufen.
+* Antworten werden auf Basis der Dokumentation generiert (RAG-basierte Antwortgenerierung).
+* Verifizierbare Antworten bereitstellen.
 
 
 Der MCP-Server von docs.netapp.com kann für Folgendes verwendet werden:
@@ -34,7 +34,7 @@ Der MCP-Server von docs.netapp.com kann für Folgendes verwendet werden:
 * Agentenbasierte Entwicklungsumgebungen werden mit NetApp Inhalten erweitert.
 * Engineering- und Support-Workflows, die eine verlässliche Dokumentation benötigen, werden unterstützt.
 * Der Bedarf, benutzerdefinierte Such-, Abruf- oder RAG-Integrationen zu erstellen und zu pflegen, wird reduziert.
-* Antworten, die auf offizieller NetApp Dokumentation basieren, werden bereitgestellt.
+* Antworten, die aus offizieller NetApp Dokumentation abgeleitet sind, werden bereitgestellt.
 
 
 
@@ -42,11 +42,11 @@ Der MCP-Server von docs.netapp.com kann für Folgendes verwendet werden:
 [[how-the-docs-netapp-com-mcp-server-works]]
 == Funktionsweise des MCP-Servers von docs.netapp.com
 
-Der MCP Server fungiert als Schnittstelle zur offiziellen NetApp Dokumentation und liefert fundierte Antworten aus veröffentlichten Inhalten.
+Der MCP Server fungiert als Schnittstelle zur offiziellen NetApp Dokumentation und liefert Antworten, die aus Inhalten abgeleitet sind, die auf docs.netapp.com veröffentlicht wurden.
 
 . Der KI-Agent sendet eine Anfrage an den MCP Server.
 . Der MCP Server ruft die relevante Dokumentation ab.
-. Das System liefert eine strukturierte, fundierte Antwort.
+. Das System liefert eine strukturierte Antwort.
 
 
 
